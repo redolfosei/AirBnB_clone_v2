@@ -3,10 +3,8 @@
     Implementation of the Amenity class
 '''
 from models import BaseModel, Base
-from models import place_amenity
 from sqlalchemy import Column, String, ForeignKey
 from sqlalchemy.orm import relationship
-
 
 class Amenity(BaseModel, Base):
     '''
